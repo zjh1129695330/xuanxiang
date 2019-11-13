@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+    img{
+        width: 200px;
+        height: 100px;
+    }
+        a{
+            display: block;
+        }
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .tabs_box{
+            /* width: 500px; */
+        }
+        #tabs{
+            display: flex;
+            width: 100%;
+            height: 1000px;
+            justify-content:space-around; 
+        }
+        .tabs{
+            display: flex;
+        }
+        .tabs li{
+            padding: 10px;
+            padding-left: 28px;
+            font-size: 18px;
+            background: url('images/icon1.png') no-repeat 10px center;
+        }
+        .tabs .cur{
+            color: #046fbb;
+        }
+        .contents div{
+            height: 200px;
+            display: none;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .contents .show{
+            display: block;
+        }
+         span {
+          float: left;
+          width: 12%;
+          height: 15px;
+          padding-bottom: 10%;
+          background: #dfdfdf;
+          text-align: center;
+          color: #187ec6;
+          font-size: 18px;
+          }
+          b{
+            background: #187ec6;
+            display: block;
+            padding: 2px 0;
+            color: #fff;
+            font-size: 14px;
+            font-weight: normal;
+          }
+    </style>
+</head>
+<body>
+    <div id="tabs">
+    <div id="tabs1" class="tabs_box">
+        <ul class="tabs">
+            <li class="cur">新闻1</li>
+            <li>新闻2</li>
+            <li>新闻3</li>
+        </ul>
+        <div class="contents">
+            <div class="show">
+                <a href="">省委书记与省长一同连夜暗访 所为何事(图)</a>
+                <a href="">省委书记与省长一同连夜暗访 所为何事(图)</a>
+                <a href="">省委书记与省长一同连夜暗访 所为何事(图)</a>
+            </div>
+            <div>
+                <a href="">66岁老公安被查 下属在皇家一号关键人物落网后投案</a>
+                <a href="">66岁老公安被查 下属在皇家一号关键人物落网后投案</a>
+                <a href="">66岁老公安被查 下属在皇家一号关键人物落网后投案</a>
+            </div>
+            <div>
+                <a href="">首次披露：自杀未遂的纪委书记还非法狩猎(图)</a>
+                <a href="">首次披露：自杀未遂的纪委书记还非法狩猎(图)</a>
+                <a href="">首次披露：自杀未遂的纪委书记还非法狩猎(图)</a>
+            </div>
+        </div>
+    </div>
+     <div id="tabs2" class="tabs_box">
+        <ul class="tabs">
+            <li class="cur">图1</li>
+            <li>图2</li>
+            <li>图3</li>
+        </ul>
+        <div class="contents">
+            <div class="show">
+               <img src="images/1.jpg">
+            </div>
+            <div>
+                <img src="images/2.jpg">
+            </div>
+            <div>
+                <img src="images/3.jpg">
+            </div>
+        </div>
+    </div>
+    <div id="tabs3" class="tabs_box">
+        <ul class="tabs">
+            <li class="cur">学院新闻</li>
+            <li>通知公告</li>
+            <li>学术动态</li>
+        </ul>
+        <div class="contents">
+            <div class="show">
+                <ul>
+                <li>
+                <span>
+                    <b>10</b>
+                    23
+                </span>
+               <a href="">我院学报被评为“RCCSE中国高职高专成高院校学报类核心期刊”</a>
+                </li>
+                <br>
+                <hr>
+                <li>
+                <span>
+                    <b>10</b>
+                    23
+                </span>
+               <a href="">我院学报被评为“RCCSE中国高职高专成高院校学报类核心期刊”</a>
+                </li>
+                <br>
+                <hr>
+                <li>
+                <span>
+                    <b>11</b>
+                    20
+                </span>
+               <a href="">我院学报被评为“RCCSE中国高职高专成高院校学报类核心期刊”</a>
+                </li>
+
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                <li>
+                <span>
+                    <b>11</b>
+                    20
+                </span>
+               <a href="">教育部智能制造外聘企业专家崔晓辉先生来我院作专题报告河北省高等职业</a>
+                </li>
+                <br>
+                <hr>
+                <li>
+                <span>
+                    <b>11</b>
+                    20
+                </span>
+               <a href="">教育部智能制造外聘企业专家崔晓辉先生来我院作专题报告河北省高等职业</a>
+                </li>
+                <br>
+                <hr>
+                <li>
+                <span>
+                    <b>10</b>
+                    23
+                </span>
+               <a href="">教育部智能制造外聘企业专家崔晓辉先生来我院作专题报告河北省高等职业</a>
+                </li>
+
+                </ul>
+            </div>
+
+            <div>
+                 <ul>
+                <li>
+                <span>
+                    <b>6</b>
+                    6
+                </span>
+               <a href="">河北软件职业技术学院数字传媒系101虚拟现实设计开发实训平台项目招标</a>
+
+                </li>
+                <br>
+                <hr>
+                <li>
+                <span>
+                    <b>6</b>
+                    6
+                </span>
+               <a href="">河北软件职业技术学院数字传媒系101虚拟现实设计开发实训平台项目招标</a>
+                </li>
+                <br>
+                <hr>
+                <li>
+                <span>
+                    <b>6</b>
+                    6
+                </span>
+               <a href="">河北软件职业技术学院数字传媒系101虚拟现实设计开发实训平台项目招标</a>
+                </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript">
+        //选项卡：点击每个选项被点击的选项具有特殊样式，其他选项央视恢复正常。被点击的选项对应的选项内容显示，其他选项内容不显示。
+        function tab(id){
+        var box=document.getElementById(id);
+        var ul=box.getElementsByClassName('tabs')[0];//不加【0】是数组元素的集合加上0是第一个元素
+        var lis=ul.getElementsByTagName('li');
+        //获取所有内容
+        var div=box.getElementsByClassName('contents')[0];
+        var divs=div.getElementsByTagName('div');
+        //所有选项个绑定事件，所有选项样式恢复正常，被点击的选项具有特殊样式
+        //所有选项内容不显示，被点击的选项对应的选项内容显示
+        for (var i=0;i<lis.length;i++){
+            lis[i].index=i;//所有选项设置属性index,保存选项的索引信号
+            //给所有选项绑定点击事件
+            lis[i].onmouseover=function(){
+                
+                for(var i=0;i<lis.length;i++){
+                    // lis[i].className='';//class值设置为空，没有去掉class属性
+                    lis[i].removeAttribute('class');//去掉class属性
+                }
+                this.className='cur';
+            for(var i=0;i<divs.length;i++){
+                divs[i].removeAttribute('class');
+            }
+            this.className='cur';//被电击的选项具有特殊样式
+            divs[this.index].className='show';//被点击的选项内容显示
+            }
+        }
+        }
+        tab('tabs1');
+        tab('tabs2');
+        tab('tabs3');
+
+    </script>
+</body>
+</html>
